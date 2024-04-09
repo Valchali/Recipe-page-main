@@ -5,7 +5,7 @@
   }
   
 main{
- background-color: aqua; 
+ background-color: white; 
  padding: 50px;
  margin: 400px;
  align-items: center;
@@ -37,9 +37,9 @@ main{
     height: 500px;
     /* width: 700px; */
     display: block;
-    margin-block: 20px;
+    margin-bottom: 50px;
     border-radius: 44px 44px 44px 44px;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   .container .h3{
