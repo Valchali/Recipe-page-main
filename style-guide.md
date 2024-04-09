@@ -22,7 +22,7 @@ The designs were created to the following widths:
 - Rose White: hsl(330, 100%, 98%)
 - Eggshell: hsl(30, 54%, 90%)
 - Light Grey: hsl(30, 18%, 87%)
-- Wenge Brown: hsl(30, 10%, 34%)
+- Wenge Brown:hsl(330, 100%, 98%)
 - Dark Charcoal: hsl(24, 5%, 18%)
 
 ## Typography

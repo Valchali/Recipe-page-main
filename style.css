@@ -1,0 +1,76 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ecbebe;
+    height:100vh;
+  }
+  
+main{
+ background-color: aqua; 
+ padding: 50px;
+ margin: 400px;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ border-radius: 50px 50px 50px 50px;
+}
+  .container4 {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%)
+  }
+  
+
+  h1 {
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+
+  }
+  
+
+  .avatar {
+    justify-content: center;
+    /* display: flex; */
+    align-items: center;
+    /* float:center; */
+    height: 500px;
+    /* width: 700px; */
+    display: block;
+    margin-block: 20px;
+    border-radius: 44px 44px 44px 44px;
+    padding: 10px;
+  }
+
+  .container .h3{
+    text-decoration:hsl(330, 100%, 98%) ;
+
+  }
+
+  /* table styles */
+
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .styled-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
