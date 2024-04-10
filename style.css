@@ -30,34 +30,37 @@ main{
   }
 
 .container h3{
-  color:hsl(330, 63%, 61%)
+  color:hsl(330, 63%, 61%);
+  font-family: Young serif, serif;
+  /* font-weight: 400px; */
 }
   h1 {
     font-size: 28px;
     text-align: left;
     /* margin-bottom: px; */
-
+    font-family: Young serif, serif;
+    font-weight: 50px;
   }
   
   .container1 h2{
-    color: hsl(15, 58%, 37%)
+    color: hsl(15, 58%, 37%);
+    font-family: Young serif, serif;
   }
 
   .container2 h2{
-    color:hsl(15, 58%, 37%) ;
+    color:hsl(15, 58%, 37%);
+    font-family: Young serif, serif;
   }
 
 .container3 h2{
   color: hsl(15, 58%, 37%);
+   font-family: Young serif, serif;
 }
 
   .container li span{
     font-weight: bold;
     /* content: "\2022"; */
   }
-  
-
-
   
   .avatar {
     justify-content: center;
