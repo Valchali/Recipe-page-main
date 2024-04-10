@@ -2,16 +2,18 @@
     font-family: Arial, sans-serif;
     background-color: #ecbebe;
     height:100vh;
+    /* overflow: hidden; */
   }
   
 main{
  background-color: white; 
- padding: 50px;
+ padding: 30px;
  margin: 400px;
  align-items: center;
  flex-direction: column;
  justify-content: center;
  border-radius: 50px 50px 50px 50px;
+ margin-top: 200px;
 }
   .container4 {
     /* max-width: 800px; */
@@ -20,32 +22,53 @@ main{
     background-color: hsl(0, 0%, 100%)
   }
   
+  .container{
+    background-color: #f3e6e6;
+    /* max-width: 150px; */
+    padding: 10px;
+    border-radius: 30px;
+  }
 
+.container h3{
+  color:hsl(330, 63%, 61%)
+}
   h1 {
     font-size: 28px;
     text-align: left;
-    margin-bottom: 20px;
+    /* margin-bottom: px; */
 
   }
   
+  .container li span{
+    font-weight: bold;
+    content: "\2022";
+  }
+  
+  .container .listtiles li:before {
+    content: "\2022"; /* Unicode for bullet (•) */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
 
+  
   .avatar {
     justify-content: center;
     /* display: flex; */
     align-items: center;
     /* float:center; */
-    height: 500px;
+    height: 300px;
     /* width: 700px; */
     display: block;
-    margin-bottom: 50px;
-    border-radius: 44px 44px 44px 44px;
+    margin-bottom: 10px;
+    border-radius: 15px 15px 15px 15px;
     /* padding: 10px; */
   }
 
-  .container .h3{
-    text-decoration:hsl(330, 100%, 98%) ;
+  /* .h3{ */
+    /* color: hsl(15, 63%, 54%) */
 
-  }
+  /* } */
 
   /* table styles */
 
