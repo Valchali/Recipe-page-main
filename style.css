@@ -7,15 +7,15 @@
   }
   
 main{
-max-width:600px ;
+max-width: 650px ;
  background-color: white; 
  padding: 30px;
  margin: 400px auto;
  align-items: center;
  flex-direction: column;
  justify-content: center;
- border-radius: 50px 50px 50px 50px;
- margin-top: 200px;
+ border-radius: 20px 20px 20px 20px;
+ margin-top: auto;
  /* height: auto; */
 }
   .container4 {
@@ -25,6 +25,11 @@ max-width:600px ;
     background-color: hsl(0, 0%, 100%);
   }
   
+
+  .recipetalk{
+   line-height: 1.5rem;
+  }
+
   .container{
     background-color: #f3e6e6;
     /* max-width: 150px; */
@@ -49,6 +54,8 @@ max-width:600px ;
     color: hsl(15, 58%, 37%);
     font-family: Young serif, serif;
   }
+
+
 
 
   .container2 h2{
@@ -76,18 +83,37 @@ max-width:600px ;
 
   .avatar {
     justify-content: center;
-    /* display: flex; */
     align-items: center;
-    /* float:center; */
     height: 300px;
-    /* width: 700px; */
     display: block;
     margin-bottom: 10px;
     border-radius: 15px 15px 15px 15px;
-    /* padding: 10px; */
   }
 
-  
+
+
+  .container li {
+    margin-top: 10px;
+  }
+
+  .container2 ol {
+    padding-left: 20px; /* Add padding to the left of the list */
+    
+}
+
+.container2 li {
+    /* margin-bottom: 10px; */
+    line-height: 1.5rem;
+}
+
+  .container1 ul{
+    padding-left: 20px;
+    /* line-height: 1.5rem; */
+  }
+
+  .container1 li {
+    margin-top: 10px;
+  }
   /* table styles */
 
   .styled-table {
@@ -126,4 +152,16 @@ max-width:600px ;
   }
   
  
-  
+ /* Media Queries */
+@media screen and (max-width: 767px) {
+  main {
+      max-width: calc(100% - 40px);
+      margin: 50px auto; /* Adjust margin for centering */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+      max-width: 550px; /* Adjust max-width for desktop */
+  }
+}
